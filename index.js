@@ -49,7 +49,6 @@ function changeHeader(color) {
 
 function randomColor() {
     let n = Math.floor(Math.random() * (colorChangers.length));
-    console.log(n);
     colorChangers[n].click();
 }
 
