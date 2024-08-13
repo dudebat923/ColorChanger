@@ -1,0 +1,108 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1e1f22;
+  color: #f8f8f8;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: 'Radio Canada Big', sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #2b2d30;
+  padding: 3rem;
+  border-radius: 2rem;
+}
+
+.buttons{
+  display: flex;
+  gap: 3.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  width: 7rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: 'Radio Canada Big', sans-serif;
+}
+
+#red {
+  background-color: #ff8989;
+}
+
+#red:hover {
+  background-color: #ffa8a8;
+}
+
+#green {
+  background-color: #8dff89;
+}
+
+#green:hover {
+  background-color: #a8ffac;
+}
+
+#blue {
+  background-color: #89c0ff;
+}
+
+#blue:hover {
+  background-color: #a8d8ff;
+}
+
+#random {
+  background-color: #121212;
+  color: #f8f8f8;
+}
+
+#random:hover {
+  background-color: #1e1e1e;
+}
+
+#reset {
+  background-color: #f8f8f8;
+}
+
+#reset:hover {
+  background-color: #ffffff;
+}
+
+.red-background {
+  background-color: #332323;
+}
+
+.green-background {
+  background-color: #284727;
+}
+
+.blue-background {
+  background-color: #1c2632;
+}
+
+.red-text {
+  color: #ffa8a8;
+}
+
+.green-text {
+  color: #8dff89;
+}
+
+.blue-text {
+  color: #89c0ff;
+}
